@@ -12,8 +12,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-
 # Inherit from msm8916-common
 $(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
 
@@ -28,7 +26,7 @@ include $(LOCAL_PATH)/product/*.mk
 
 $(call inherit-product-if-exists, vendor/yu/tomato/tomato-vendor.mk)
 
- PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     IMSEnabler
 
 PRODUCT_PROPERTY_OVERRIDES += \
