@@ -353,7 +353,8 @@ vendor/lib/libTimeService.so
 #IMS
  bin/ims_rtp_daemon		
  bin/imscmservice		
- bin/imsqmidaemon		
+ bin/imsqmidaemon	
+ etc/permissions/ims.xml	
  etc/permissions/imscm.xml		
  etc/permissions/qti_permissions.xml
  vendor/framework/imscmlibrary.jar		
