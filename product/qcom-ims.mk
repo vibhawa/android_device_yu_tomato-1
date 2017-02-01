@@ -16,6 +16,7 @@ $(LOCAL_PATH)/configs/ims/qti_permissions.xml:system/etc/permissions/qti_permiss
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
+    service.qti.ims.enabled=1 \
     net.lte.volte_call_capable=true \
     persist.ims.enableADBLogs=1 \
     persist.ims.enableDebugLogs=1 \
@@ -28,3 +29,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.VT_USE_MDM_TIME=0 \
     persist.dbg.volte_avail_ovr=1 \
     persist.volte_enalbed_by_hw=1
+    DEVICE_PROVISIONED=1
