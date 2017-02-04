@@ -25,6 +25,3 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
 include $(LOCAL_PATH)/product/*.mk
 
 $(call inherit-product-if-exists, vendor/yu/tomato/tomato-vendor.mk)
-
-# AUDIO
-AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
