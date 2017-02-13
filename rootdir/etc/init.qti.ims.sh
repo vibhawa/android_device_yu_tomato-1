@@ -28,6 +28,8 @@
 #
 #
 
+dir0=/data
+trigger_file=$dir0/ims_disabled
 ims_disabled=`getprop persist.ims.disabled`
 target=`getprop ro.build.product`
 
