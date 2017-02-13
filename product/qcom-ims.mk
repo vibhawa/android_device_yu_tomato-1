@@ -8,7 +8,7 @@ PRODUCT_PACKAGES += \
     libvt_jni
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
+$(LOCAL_PATH)/configs/ims/imscm.xml:system/etc/permissions/imscm.xml \
  
 $(LOCAL_PATH)/configs/ims/ims.xml:system/etc/permissions/ims.xml \
    
